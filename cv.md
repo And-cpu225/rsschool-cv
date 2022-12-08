@@ -1,6 +1,6 @@
 # Curriculum vitae
 **Andrey Yashchanka**
-![photo](photo.png "photo Andrey Yashchanka")
+![photo](https://github.com/And-cpu225/rsschool-cv.git "photo Andrey Yashchanka")
 ### Contacts
 phone - *+375295569581*
 email - *and075555@gmail.com*
