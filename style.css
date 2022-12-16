@@ -43,6 +43,10 @@ body {
   margin: 0 auto;
 }
 
+.nav {
+  margin: 0 15g0px;
+}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -88,13 +92,13 @@ body {
   margin: 0 100px;
 }
 
-.Footer__box {
+.footer__box {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.date {
+.footer__date {
   margin: 0 60px;
   color: #ffffff;
 }
