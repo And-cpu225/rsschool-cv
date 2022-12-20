@@ -10,7 +10,7 @@ body {
   width: 1440px;
 
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #6c7279;
 
   display: flex;
@@ -22,6 +22,18 @@ body {
 
 * {
   box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+ul li {
+  list-style: none;
 }
 
 .header {
@@ -36,6 +48,7 @@ body {
 .footer {
   border: 1px solid rgb(96, 91, 91);
   background-color: rgb(130, 142, 247);
+  margin: 20px 0 0 0;
 }
 
 .container {
@@ -44,7 +57,7 @@ body {
 }
 
 .nav {
-  margin: 0 150px;
+  margin: 0 170px;
 }
 
 .nav-list {
@@ -66,8 +79,15 @@ body {
 
   margin: 60px;
 }
+.avatar {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 10px 10px 20px 2px #20203acc;
+}
 
-.profil__block {
+.info {
   display: flex;
   flex-wrap: wrap;
   align-items: start;
@@ -75,21 +95,48 @@ body {
   margin: 30px 220px;
 }
 
-.profil__block__first {
+.block {
   width: 50%;
 }
 
-.profil__block__second {
-  margin: 0 0 0 150px;
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
-.footer {
-  margin: 20px 0 0 0;
+h2 {
+  letter-spacing: 0.3rem;
+  margin: 10px 0;
+ }
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.contacts__item {
+  align-items: center;
+  display: flex;
+  margin-top: 7px;
+  transition: color 0.5s;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.summary__text {
+  line-height: 1.5;
 }
 
 .footer__logo {
   width: 100px;
-  margin: 0 100px;
+  margin: 0 200px;
 }
 
 .footer__box {
