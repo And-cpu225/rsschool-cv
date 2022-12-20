@@ -1,0 +1,164 @@
+html {
+  scroll-behavior: smooth;
+  }
+
+body {
+  margin: 0 auto;
+  padding: 0;
+
+  min-height: 100vh;
+  width: 1440px;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #6c7279;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: url(assets/fon.jpg);
+}
+
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header {
+  border: 1px solid rgb(89, 85, 85);
+  background-color: rgb(130, 142, 247);
+}
+
+.main {
+  border: 1px solid rgb(232, 223, 223);
+}
+
+.footer {
+  border: 1px solid rgb(96, 91, 91);
+  background-color: rgb(130, 142, 247);
+  margin: 20px 0 0 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin: 0 170px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.profil {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin: 60px;
+}
+.avatar {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 10px 10px 20px 2px #20203acc;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+
+  margin: 30px 220px;
+}
+
+.block {
+  width: 50%;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  letter-spacing: 0.3rem;
+  margin: 10px 0;
+ }
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.contacts__item {
+  align-items: center;
+  display: flex;
+  margin-top: 7px;
+  transition: color 0.5s;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.summary__text {
+  line-height: 1.5;
+}
+
+.footer__logo {
+  width: 100px;
+  margin: 0 200px;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__date {
+  margin: 0 60px;
+  color: #ffffff;
+}
+
+
+
+
+/* .footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__item {
+  width: 50%;
+  min-width: 50%;
+}*/
