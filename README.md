@@ -1,1 +1,1 @@
-And-cpu225/rsschool-cv
+And-cpu225
