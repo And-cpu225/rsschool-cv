@@ -15,7 +15,7 @@ body {
     color: #636060;
 }
 
-
+/* Header styles */
 
 .header {
     position: absolute;
@@ -78,14 +78,22 @@ body {
     opacity: .75;
 }
 
+/* Header styles end */
+
 main {
+    
+}
+
+/* Welcome styles */
+
+.welcome {
     position: absolute;
     top: 134px;
     left: 0;
     width: 100%;
 }
 
-.welcome {
+.welcome__section {
     margin: 0 auto;
 
     height: 532px;
@@ -98,6 +106,24 @@ main {
     flex-wrap: wrap;
 }
 
+.welcome__img {
+  margin-top: 62px;
+  margin-left: 109px;
+  /* margin: 62px 224.2px 0 109px; */
+}
+
+.welcome__img-pic {
+  width: 448.8px;
+  height: 407.36px; 
+}
+
+.welcome__title {
+  width: 549px;
+  height: 340px;
+
+  margin: 98px 109px 94px 224.2px;
+}
+
 .intro__title {
     width: 549px;
     height: 101px;
@@ -108,7 +134,7 @@ main {
     line-height: 50px;
     color: #717171;
 
-    margin-bottom: 42px;
+    margin: 0 0 42px 0;
 }
 
 .intro__subtitle {
@@ -122,6 +148,47 @@ main {
     color: #636060;
 
     margin-bottom: 48px;
+}
+
+.btn {
+  box-sizing: border-box;  
+  width: 158px;
+  height: 44px;
+  margin: 0 388px 94px 0;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  padding: 14px 27px;
+  
+
+  font-family: inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;  
+  text-align: center;
+  color: #000000;
+
+
+  
+
+
+  /* display: inline-block;
+  vertical-align: top;
+  
+
+  
+  
+  cursor: pointer;
+
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+
+  transition: background .1s linear; */
+
+  
 }
 
 /* Intro styles end */
