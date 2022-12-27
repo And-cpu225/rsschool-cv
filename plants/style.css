@@ -167,15 +167,8 @@ main {
   text-align: center;
   color: #000000;
 
-
-  
-
-
   /* display: inline-block;
-  vertical-align: top;
-  
-
-  
+  vertical-align: top;  
   
   cursor: pointer;
 
@@ -183,12 +176,52 @@ main {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-  text-decoration: none;
-  
+  text-decoration: none;  
 
-  transition: background .1s linear; */
-
-  
+  transition: background .1s linear; */  
 }
 
-/* Intro styles end */
+/* Welcome styles end */
+
+/* About styles */
+
+.about {
+    position: absolute;
+    top: 666px;
+    left: 0;
+    width: 100%;
+}
+
+.about__section {
+    margin: 0 auto;
+
+    height: 666px;
+    width: 1440px;
+    background-color: #ffffff;
+}
+
+.main__about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__title {
+    width: 463px;
+    height: 102px;
+  
+    margin: 161px 295px 40px 109px;
+  }
+  
+  .intro__title {
+      width: 549px;
+      height: 101px;
+      font-family: inter;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 50px;
+      color: #717171;
+  
+      margin: 0 0 42px 0;
+  }
+  
