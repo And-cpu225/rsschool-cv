@@ -212,16 +212,40 @@ main {
     margin: 161px 295px 40px 109px;
   }
   
-  .intro__title {
-      width: 549px;
-      height: 101px;
-      font-family: inter;
+  .intro__title-about {
+      width: 463px;
+      height: 102px;
+      font-family: inika;
       font-style: normal;
-      font-weight: 700;
-      font-size: 45px;
-      line-height: 50px;
-      color: #717171;
-  
-      margin: 0 0 42px 0;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 52px;
+      color: #499A18;
   }
   
+  .intro__title-about span {
+    color: #E06733;
+  }
+
+  .intro__subtitle-about {
+    width: 605px;
+    height: 208px;
+    font-family: inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+
+    margin-bottom: 48px;    
+  }
+
+  .about__img {
+    margin-top: 93px;
+    /* margin: 62px 224.2px 0 109px; */
+  }
+  
+  .about__img-pic {
+    width: 464px;
+    height: 479px; 
+  }
