@@ -69,15 +69,11 @@ body {
 /* Header styles */
 
 .header {
+    display: flex;
+    justify-content: space-between;
     max-width: 1440px;
     margin: 0 auto;
     background-color: #EDF2EC;
-}
-
-.wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .header__logo {
