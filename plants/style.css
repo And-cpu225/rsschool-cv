@@ -69,20 +69,12 @@ body {
 /* Header styles */
 
 .header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.wrapper {
     max-width: 1440px;
     margin: 0 auto;
-
     background-color: #EDF2EC;
 }
 
-.header__wrapper {
+.wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
