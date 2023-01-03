@@ -78,8 +78,9 @@ body {
 
 .header__logo {
     display: flex;
-    margin-top: 52px;
-    margin-left: 112px;
+    align-items: center;
+    width: 189px;
+    justify-content: flex-end;
 }
 
 .header__name {
@@ -89,12 +90,7 @@ body {
 
 .header__list {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.header__item {
-    margin-right: 46px;
-    list-style-type: none;
+    gap: 46px;
 }
 
 .header__item:last-child {
@@ -119,10 +115,6 @@ body {
 
 /* Header styles end */
 
-main {
-    
-}
-
 /* Welcome styles */
 
 .welcome {
@@ -134,8 +126,6 @@ main {
 
 .welcome__section {
     margin: 0 auto;
-
-    height: 532px;
     width: 1440px;
     background-color: #EDF2EC;
 }
@@ -160,25 +150,21 @@ main {
   width: 549px;
   height: 340px;
 
-  margin: 98px 109px 94px 224.2px;
+  margin: 98px 0 94px 224.2px;
 }
 
 .intro__title {
     width: 549px;
-    height: 101px;
     font-family: inter;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
     color: #717171;
-
-    margin: 0 0 42px 0;
+    margin-bottom: 42px;
 }
 
-.intro__subtitle {
-    width: 525.4421997070312px;
-    height: 105px;
+.intro__subtitle {    
     font-family: inter;
     font-style: normal;
     font-weight: 400;
@@ -190,20 +176,13 @@ main {
 }
 
 .btn {
-  box-sizing: border-box;  
-  width: 158px;
-  height: 44px;
-  margin: 0 388px 94px 0;
+  display: inline-block;
   border: 2px solid #E06733;
   border-radius: 10px;
   padding: 14px 27px;
-  
-
   font-family: inter;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;  
-  text-align: center;
   color: #000000;
 
   /* display: inline-block;
@@ -288,3 +267,28 @@ main {
     width: 464px;
     height: 479px; 
   }
+
+  .services {
+    position: absolute;
+    top: 1332px;
+    left: 0;
+    width: 100%;
+}
+
+.services__section {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #EDF2EC;
+}
+
+.services__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    top: 40px;
+    left: 109px;
+    width: 1007px;
+}
+
+.services__title {
+}
