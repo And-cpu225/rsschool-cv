@@ -149,7 +149,6 @@ body {
 .welcome__title {
   width: 549px;
   height: 340px;
-
   margin: 98px 0 94px 224.2px;
 }
 
@@ -171,7 +170,6 @@ body {
     font-size: 20px;
     line-height: 35px;
     color: #636060;
-
     margin-bottom: 48px;
 }
 
@@ -181,22 +179,7 @@ body {
   border-radius: 10px;
   padding: 14px 27px;
   font-family: inter;
-  font-weight: 400;
-  font-size: 16px;
-  color: #000000;
-
-  /* display: inline-block;
-  vertical-align: top;  
-  
-  cursor: pointer;
-
-  font-size: 13px;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-decoration: none;  
-
-  transition: background .1s linear; */  
+  color: #000000;    
 }
 
 /* Welcome styles end */
@@ -212,7 +195,6 @@ body {
 
 .about__section {
     margin: 0 auto;
-
     height: 666px;
     width: 1440px;
     background-color: #ffffff;
@@ -225,8 +207,7 @@ body {
 
 .about__title {
     width: 463px;
-    height: 102px;
-  
+    height: 102px;  
     margin: 161px 295px 40px 109px;
   }
   
@@ -254,13 +235,11 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #636060;
-
     margin-bottom: 48px;    
   }
 
   .about__img {
     margin-top: 93px;
-    /* margin: 62px 224.2px 0 109px; */
   }
   
   .about__img-pic {
@@ -268,27 +247,54 @@ body {
     height: 479px; 
   }
 
-  .services {
+  .service {
     position: absolute;
     top: 1332px;
     left: 0;
     width: 100%;
 }
 
-.services__section {
+.service__section {
     margin: 0 auto;
     width: 1440px;
     background-color: #EDF2EC;
 }
 
-.services__content {
-    align-items: center;
+.service__content {    
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    top: 40px;
-    left: 109px;
     width: 1007px;
+    padding-top: 40px;
+    margin-left: 109px;
+    padding-bottom: 90px;
 }
 
-.services__title {
+.service__title {
+    max-width: 306px;
+    font-size: 40px;
+    line-height: 52.12px;
+    color: #499A18;
+}
+
+.service__btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+.service__btn {
+    display: inline-block;
+    padding: 12px 54px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    text-decoration: none;
+    border: 2px solid #E06733;   
+    border-radius: 5px; 
+  }
+  
+.services {
+    display: flex;
+    flex-wrap: wrap;
 }
