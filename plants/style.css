@@ -83,6 +83,10 @@ body {
     justify-content: flex-end;
 }
 
+.header__logo-link {
+    text-decoration: none;
+}
+
 .header__name {
     margin-block-start: 4px;
     color: #000;
@@ -195,14 +199,12 @@ body {
 
 .about__section {
     margin: 0 auto;
-    height: 666px;
     width: 1440px;
     background-color: #ffffff;
 }
 
-.main__about {
+.about__position {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .about__title {
@@ -247,6 +249,10 @@ body {
     height: 479px; 
   }
 
+  /* About styles end*/
+
+  /* Service styles */
+
   .service {
     position: absolute;
     top: 1332px;
@@ -257,6 +263,7 @@ body {
 .service__section {
     margin: 0 auto;
     width: 1440px;
+    height: 1300px;
     background-color: #EDF2EC;
 }
 
@@ -283,7 +290,7 @@ body {
     gap: 38px;
 }
 
-.service__btn {
+.services__btn {
     display: inline-block;
     padding: 12px 54px;
     font-size: 20px;
@@ -298,3 +305,103 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* Service styles end*/
+
+/* About styles */
+
+.prices {
+    position: absolute;
+    top: 2632px;
+    left: 0;
+    width: 100%;
+}
+
+.prices__wrapper {
+    margin: 0 auto;
+    width: 1440px;  
+    height: 560px;
+    background-color: #ffffff;
+}
+
+.prices__position {
+    display: flex;
+}
+
+.prices__title {
+    width: 463px;
+    height: 102px;  
+    margin-top: 40px;
+    margin-left: 109px;
+}
+  
+.intro__title-prices {
+    width: 135px;
+    height: 49px;
+    font-family: Iter;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+/* About styles end*/
+
+/* Contacts styles*/
+
+.contacts {
+    position: absolute;
+    top: 3192px;
+    left: 0;
+    width: 100%;
+}
+
+.contacts__wrapper {
+    margin: 0 auto;
+    width: 1440px;  
+    height: 550px;
+    background-color: #EDF2EC;
+}
+
+.contacts__position {
+    display: flex;
+}
+
+.contacts__img {
+  margin-top: 53px;
+  margin-left: 109px;
+}
+
+/* Contacts styles end*/
+
+/* Footer styles*/
+
+.footer {
+    position: absolute;
+    top: 3742px;
+    left: 0;
+    width: 100%;    
+}
+
+.footer__wrapper {
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #EDF2EC;
+}
+
+.footer__position {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-data {
+    width: 182px;
+    height: 50px;
+}
+
+.footer-data__position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
