@@ -28,9 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -64,6 +62,7 @@ body {
     font-size: 16px;
     line-height: 1.2;
     color: #636060;
+    line-height: 1;
 }
 
 /* Header styles */
@@ -136,7 +135,6 @@ body {
 
 .main__welcome {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .welcome__img {
@@ -183,7 +181,14 @@ body {
   border-radius: 10px;
   padding: 14px 27px;
   font-family: inter;
-  color: #000000;    
+  color: #000000; 
+  text-decoration: none;  
+  transition: background .2s linear 
+}
+
+
+.btn:hover {
+    background-color: #dd3434;
 }
 
 /* Welcome styles end */
@@ -299,7 +304,12 @@ body {
     text-decoration: none;
     border: 2px solid #E06733;   
     border-radius: 5px; 
+    transition: background .2s linear;
   }
+
+.services__btn:hover {
+   background-color: #e84545;
+}
   
 .services {
     display: flex;
@@ -326,6 +336,7 @@ body {
 
 .prices__position {
     display: flex;
+    justify-content: space-between; 
 }
 
 .prices__title {
@@ -345,6 +356,10 @@ body {
     color: #000000;
 }
 
+.contact__btn {
+    margin-top: 193px;
+    margin-right: 143px;
+}
 /* About styles end*/
 
 /* Contacts styles*/
@@ -381,27 +396,40 @@ body {
     top: 3742px;
     left: 0;
     width: 100%;    
+    color: #000000;
 }
 
 .footer__wrapper {
     margin: 0 auto;
     width: 1440px;
-    background-color: #EDF2EC;
+    height: 130px;
+    background-color: #FFFFFF;
 }
 
 .footer__position {
     display: flex;
     justify-content: space-around;
+    height: 130px;
+    align-items: center; 
 }
 
 .footer-data {
     width: 182px;
-    height: 50px;
 }
 
 .footer-data__position {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
     align-items: center; 
+    
+    font-size: 20px;
 }
 
+.data {
+    font-size: 20px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 30px;
+}
